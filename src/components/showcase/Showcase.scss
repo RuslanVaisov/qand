@@ -1,0 +1,22 @@
+section.showcase {
+  position: relative;
+  background: url("../../img/showcase-mobile.jpg") no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.showcase-content {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+
+  h1 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: #333;
+  }
+}
