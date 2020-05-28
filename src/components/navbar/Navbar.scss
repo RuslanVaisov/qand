@@ -8,6 +8,8 @@ section.navbar {
 }
 
 nav {
+  max-width: 1440px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,16 +17,36 @@ nav {
 
   .logo {
     width: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     z-index: 3;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   .hamburger {
     padding: 1rem;
     cursor: pointer;
     z-index: 3;
+  }
+}
+
+.nav-menu {
+  z-index: 3;
+  display: flex;
+  align-items: center;
+
+  li {
+    list-style: none;
+    padding: 0 1rem;
+
+    a {
+      text-decoration: none;
+      padding: 0.5rem;
+      color: #fff;
+    }
   }
 }
 

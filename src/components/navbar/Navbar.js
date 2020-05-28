@@ -21,11 +21,27 @@ const Navbar = () => {
     <section className="navbar">
       <nav>
         <div className="logo">
-          <img src={Toggle ? logo : logoBlack} alt="" />
+          <a href="/">
+            <img src={Toggle ? logo : logoBlack} alt="" />
+          </a>
         </div>
+        {/* 
+        <ul className="nav-menu">
+          <li>
+            <a href="/">продукты</a>
+          </li>
+          <li>
+            <a href="/">о нас</a>
+          </li>
+          <li>
+            <a href="/">контакты</a>
+          </li>
+        </ul> */}
+
         <div onClick={handleToggle} className="hamburger">
           <div>
             <HamburgerMenu
+              className="hamburger-menu"
               isOpen={open}
               menuClicked={handleClick}
               width={18}
