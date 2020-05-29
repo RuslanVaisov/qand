@@ -13,17 +13,27 @@ section.footer {
 
     .contact-info {
       padding: 1.5rem 2rem;
+      font-size: 1.2rem;
 
       & > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 0.2rem 0;
+      }
+
+      p {
+        padding-left: 1rem;
       }
     }
 
     .social-media {
+      display: flex;
       padding: 1.5rem 2rem;
+      font-size: 2rem;
 
       & > div {
-        padding: 0.2rem 0;
+        padding: 0.2rem 1rem;
       }
     }
   }
@@ -40,6 +50,10 @@ section.footer {
 
     .footer-grid {
       flex-direction: row;
+
+      .social-media {
+        flex-direction: column;
+      }
     }
   }
 }
