@@ -3,6 +3,7 @@ import HamburgerMenu from "react-hamburger-menu";
 import "./Navbar.scss";
 import logoBlack from "../../img/logo-black.png";
 import logo from "../../img/logo.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -50,13 +51,49 @@ const Navbar = () => {
       {Toggle ? (
         <ul onClick={handleToggle} className="nav-list">
           <li>
-            <a href="/">продукты</a>
+            <Link
+              onClick={handleToggle}
+              activeClass="active"
+              to="products"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={500}
+              isDynamic={true}
+              ignoreCancelEvents={false}
+            >
+              Продукты
+            </Link>
           </li>
           <li>
-            <a href="/">о нас</a>
+            <Link
+              onClick={handleToggle}
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={750}
+              isDynamic={true}
+              ignoreCancelEvents={false}
+            >
+              О нас
+            </Link>
           </li>
           <li>
-            <a href="/">контакты</a>
+            <Link
+              onClick={handleToggle}
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={1250}
+              isDynamic={true}
+              ignoreCancelEvents={false}
+            >
+              Контакты
+            </Link>
           </li>
         </ul>
       ) : null}

@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <section className="footer" id="contact">
       <div className="footer-grid">
         <div className="contact-info">
           <div>
@@ -25,12 +25,20 @@ const Footer = () => {
           </div>
         </div>
         <div className="social-media">
-          <div>
+          <a
+            href="https://www.facebook.com/qandchoco/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaFacebookSquare />
-          </div>
-          <div>
+          </a>
+          <a
+            href="https://www.instagram.com/qandchoco/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaInstagram />
-          </div>
+          </a>
         </div>
       </div>
       <p className="copyright"> &copy; 2020, "Qand"</p>

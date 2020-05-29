@@ -5,7 +5,7 @@ import { ProductConsumer } from "../../Context";
 
 const ProductTypes = () => {
   return (
-    <section className="product-types">
+    <section className="product-types" id="products">
       <div className="product-types-bg">
         <h1>— ПРОДУКТЫ —</h1>
       </div>

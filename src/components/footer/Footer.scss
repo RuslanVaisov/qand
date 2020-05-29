@@ -15,7 +15,7 @@ section.footer {
       padding: 1.5rem 2rem;
       font-size: 1.2rem;
 
-      & > div {
+      & > * {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -32,8 +32,14 @@ section.footer {
       padding: 1.5rem 2rem;
       font-size: 2rem;
 
-      & > div {
+      a {
         padding: 0.2rem 1rem;
+        color: #fff;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          transform: translate(0, 3px);
+        }
       }
     }
   }

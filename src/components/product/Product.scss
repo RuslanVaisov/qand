@@ -1,23 +1,27 @@
 .single-product {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  line-height: 0;
+  position: relative;
+  font-size: 0;
+
+  &:hover {
+    transform: translate(0, 5px);
+  }
 
   img {
     border-top: none;
     transition: all 0.2s ease-in-out;
-
-    &:hover {
-      transform: translate(0, 5px);
-    }
   }
 
   .product-type {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 0.5rem 1rem;
     text-align: center;
-    padding-top: 2rem;
-    color: #666;
-    font-weight: bold;
+    color: #fff;
     font-size: 1.3rem;
+    opacity: 0.9;
   }
 }
 

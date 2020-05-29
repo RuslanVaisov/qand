@@ -5,6 +5,8 @@ export const productTypeList = [
     img: "img/products/1.jpg",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Молочный",
+    color: "#333",
+    bgColor: "#fdebdb",
   },
   {
     id: 2,
@@ -12,6 +14,8 @@ export const productTypeList = [
     img: "img/products/2.jpg",
     info: "Состав: молочный шоколад, клюква",
     type: "Черный",
+    color: "#fff",
+    bgColor: "#401f19",
   },
   {
     id: 3,
@@ -19,6 +23,8 @@ export const productTypeList = [
     img: "img/products/3.jpg",
     info: "Состав: молочный шоколад, имбирь, кедровые орехи",
     type: "Руби",
+    color: "#fff",
+    bgColor: "#e7b15b",
   },
   {
     id: 4,
@@ -26,6 +32,8 @@ export const productTypeList = [
     img: "img/products/1.jpg",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Молочный",
+    color: "#fff",
+    bgColor: "#ef88a5",
   },
   {
     id: 5,
@@ -33,5 +41,7 @@ export const productTypeList = [
     img: "img/products/2.jpg",
     info: "Состав: молочный шоколад, клюква",
     type: "Черный",
+    color: "#333",
+    bgColor: "#fdebdb",
   },
 ];

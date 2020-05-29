@@ -12,7 +12,15 @@ const Showcase = () => {
           Профессионально значит лучший бельгийский <br /> шоколад и отборные
           сухофрукты Узбекистана.
         </p>
-        <button>Заказать</button>
+        <button>
+          <a
+            href="https://t.me/qandadmin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Заказать
+          </a>
+        </button>
       </div>
     </section>
   );
