@@ -34,7 +34,7 @@ section.product-types {
   .product-type-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 0 4rem;
+    grid-gap: 3rem;
     position: absolute;
     top: 50%;
     left: 50%;
