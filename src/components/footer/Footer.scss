@@ -1,0 +1,45 @@
+section.footer {
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1024px;
+
+    .contact-info {
+      padding: 1.5rem 2rem;
+
+      & > div {
+        padding: 0.2rem 0;
+      }
+    }
+
+    .social-media {
+      padding: 1.5rem 2rem;
+
+      & > div {
+        padding: 0.2rem 0;
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  section.footer {
+    font-size: 1.2rem;
+
+    .footer-grid {
+      flex-direction: row;
+    }
+  }
+}
