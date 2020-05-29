@@ -25,34 +25,24 @@ const Navbar = () => {
             <img src={Toggle ? logo : logoBlack} alt="" />
           </a>
         </div>
-        {/* 
-        <ul className="nav-menu">
-          <li>
-            <a href="/">продукты</a>
-          </li>
-          <li>
-            <a href="/">о нас</a>
-          </li>
-          <li>
-            <a href="/">контакты</a>
-          </li>
-        </ul> */}
-
         <div onClick={handleToggle} className="hamburger">
-          <div>
-            <HamburgerMenu
-              className="hamburger-menu"
-              isOpen={open}
-              menuClicked={handleClick}
-              width={18}
-              height={10}
-              strokeWidth={1}
-              rotate={0}
-              // color={Toggle ? "white" : "black"}
-              color="#fff"
-              borderRadius={0}
-              animationDuration={0.5}
-            />
+          <div className="nav-menu">
+            <p className="burger-title">Menu</p>
+            <div>
+              <HamburgerMenu
+                className="hamburger-menu"
+                isOpen={open}
+                menuClicked={handleClick}
+                width={18}
+                height={10}
+                strokeWidth={1}
+                rotate={0}
+                // color={Toggle ? "white" : "black"}
+                color="#fff"
+                borderRadius={0}
+                animationDuration={0.5}
+              />
+            </div>
           </div>
         </div>
       </nav>

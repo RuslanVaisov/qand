@@ -1,0 +1,33 @@
+.single-product {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  line-height: 0;
+
+  img {
+    border: 1px #d5987b solid;
+    border-top: none;
+  }
+
+  .product-type {
+    text-align: center;
+    padding: 1.2rem;
+    color: #333;
+    border: 1px #d5987b solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+
+  &:hover {
+    transform: translate(0, 5px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .single-product {
+    .product-type {
+      padding: 0.9rem;
+      font-size: 0.9rem;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+section.product-types {
+  height: 100vh;
+  position: relative;
+
+  .product-types-bg {
+    background: url("../../img/product-types.jpg") no-repeat center center/cover;
+    height: 50vh;
+
+    h1 {
+      position: absolute;
+      top: 13%;
+      left: 50%;
+      transform: translate(-50%, 0);
+      color: #fff;
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  .product-type-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+
+  .all-products-btn {
+    background: #d5987b;
+    border: none;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transform: translate(-50%, 0);
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transform: translate(-50%, 5px);
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  section.product-types {
+    height: 60vh;
+
+    .product-types-bg {
+      height: 30vh;
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+    .product-type-grid {
+      width: 90%;
+    }
+    .all-products-btn {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  section.product-types {
+    height: 100%;
+
+    .product-types-bg {
+      display: none;
+    }
+
+    .product-type-grid {
+      // display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+      width: 80%;
+      position: relative;
+      transform: translate(0, 0);
+      top: 0;
+      left: 0;
+      margin: auto;
+      padding: 2rem 0;
+    }
+
+    .all-products-btn {
+      padding: 0.8rem 1.5rem;
+      outline: none;
+      cursor: pointer;
+      position: relative;
+      bottom: 0;
+      left: 50%;
+      font-size: 1.2rem;
+      transform: translate(-50%, 0);
+      transition: all 0.2s ease-in-out;
+      margin-bottom: 2rem;
+    }
+  }
+}

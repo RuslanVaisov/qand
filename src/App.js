@@ -1,14 +1,12 @@
 import React from "react";
 import "./App.scss";
-import Navbar from "./components/navbar/Navbar";
-import Showcase from "./components/showcase/Showcase";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Showcase />
-    </div>
+    <React.Fragment>
+      <Home />
+    </React.Fragment>
   );
 }
 
