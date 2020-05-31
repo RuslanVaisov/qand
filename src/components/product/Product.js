@@ -5,7 +5,7 @@ const Product = (props) => {
   const { title, img, type, color, bgColor } = props.product;
 
   return (
-    <div id="" className="single-product">
+    <div className="product-types-product">
       <a href="/">
         <img src={img} alt={title} />
         <p

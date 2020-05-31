@@ -1,4 +1,4 @@
-.single-product {
+.product-types-product {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   position: relative;
@@ -16,28 +16,19 @@
   .product-type {
     position: absolute;
     width: 100%;
-    bottom: 0;
-    padding: 0.5rem;
+    // bottom: 0;
+    // padding: 0.3rem 0;
     text-align: center;
     color: #fff;
     font-size: 1.2rem;
-    opacity: 0.9;
+    // opacity: 0.9;
   }
 }
 
 @media (max-width: 1024px) {
-  .single-product {
+  .product-types-product {
     .product-type {
-      font-size: 1rem;
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .single-product {
-    .product-type {
-      // padding: 2rem 0;
-      font-size: 1.5rem;
+      font-size: 0.9rem;
     }
   }
 }

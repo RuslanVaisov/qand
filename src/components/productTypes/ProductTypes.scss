@@ -47,16 +47,17 @@ section.product-types {
     background: #d5987b;
     border: none;
     color: #fff;
-    padding: 0.8rem 1.5rem;
+    padding: 0.5rem 1rem;
     outline: none;
     cursor: pointer;
     position: absolute;
-    bottom: 13%;
+    bottom: 18%;
     left: 50%;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     transform: translate(-50%, 0);
     transition: all 0.2s ease-in-out;
+    text-decoration: none;
 
     &:hover {
       transform: translate(-50%, 5px);
@@ -106,13 +107,13 @@ section.product-types {
       padding: 2rem 0;
     }
 
-    .all-products-btn {
-      padding: 0.5rem 1rem;
+    .product-types-button {
       position: relative;
-      bottom: 0;
-      left: 50%;
-      font-size: 0.9rem;
-      margin-bottom: 2rem;
+      padding: 1rem 0;
+      margin: 3rem 0;
+    }
+    .all-products-btn {
+      // font-size: 0.7rem;
     }
   }
 }

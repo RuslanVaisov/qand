@@ -1,5 +1,6 @@
 import React from "react";
 import "./Showcase.scss";
+import scroll from "../../img/scroll.gif";
 
 const Showcase = () => {
   return (
@@ -22,6 +23,7 @@ const Showcase = () => {
           </a>
         </button>
       </div>
+      <img src={scroll} alt="scroll" />
     </section>
   );
 };
