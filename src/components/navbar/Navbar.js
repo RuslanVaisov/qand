@@ -49,7 +49,7 @@ const Navbar = () => {
       </nav>
 
       {Toggle ? (
-        <ul onClick={handleToggle} className="nav-list">
+        <ul onClick={handleToggle} style={{ opacity: 1 }} className="nav-list">
           <li>
             <Link
               onClick={handleToggle}
