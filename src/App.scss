@@ -1,3 +1,12 @@
+@import "./components/about/About.scss";
+@import "./components/allProductsCategories/AllProductsCategories.scss";
+@import "./components/footer/Footer.scss";
+@import "./components/loading/Loading.scss";
+@import "./components/navbar/Navbar.scss";
+@import "./components/product/Product.scss";
+@import "./components/productTypes/ProductTypes.scss";
+@import "./components/showcase/Showcase.scss";
+
 @font-face {
   font-family: "Myriad Pro";
   src: url("./fonts/MYRIADPRO-REGULAR.OTF");
@@ -13,4 +22,18 @@ body {
   line-height: 1.6;
   font-family: "Myriad Pro", sans-serif;
   position: relative;
+}
+
+.App {
+  // visibility: hidden;
+}
+
+.fade-appear {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 1s linear;
 }
