@@ -1,11 +1,9 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import HamburgerMenu from "react-hamburger-menu";
 import "./Navbar.scss";
 import logoBlack from "../../img/logo-black.png";
 import logo from "../../img/logo.png";
 import { Link } from "react-scroll";
-import { gsap } from "gsap";
-
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [Toggle, setToggle] = useState(false);
@@ -19,36 +17,15 @@ const Navbar = () => {
     setOpen(!open);
   };
 
-  let logoEffect = useRef(null);
-  let burgerEffect = useRef(null);
-
-  useEffect(() => {
-    gsap.from([logoEffect, burgerEffect], {
-      opacity: -1,
-      duration: 1,
-      delay: 1,
-    });
-  }, []);
-
   return (
     <section className="navbar">
       <nav>
         <div className="logo">
           <a href="/">
-            <img
-              ref={(el) => {
-                logoEffect = el;
-              }}
-              src={Toggle ? logo : logoBlack}
-              alt=""
-            />
+            <img src={Toggle ? logo : logoBlack} alt="" />
           </a>
         </div>
-        <div
-          ref={(el) => (burgerEffect = el)}
-          onClick={handleToggle}
-          className="hamburger"
-        >
+        <div onClick={handleToggle} className="hamburger">
           <div className="nav-menu">
             <p className="burger-title">Menu</p>
             <div>

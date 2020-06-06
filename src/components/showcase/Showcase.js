@@ -1,13 +1,18 @@
 import React from "react";
 import "./Showcase.scss";
-import scroll from "../../img/scroll.gif";
+import scroll2 from "../../img/scroll2.gif";
 
 const Showcase = () => {
   return (
     <section className="showcase">
       <div className="showcase-content">
         <h1>
-          Generation of Premium <br /> Handmade Chocolate
+          <div className="line">
+            <span>Generation of Premium</span>
+          </div>
+          <div className="line">
+            <span> Handmade Chocolate</span>
+          </div>
         </h1>
         <p>
           Профессионально значит лучший бельгийский <br /> шоколад и отборные
@@ -23,7 +28,8 @@ const Showcase = () => {
           </a>
         </button>
       </div>
-      <img src={scroll} alt="scroll" />
+      <img src={scroll2} alt="scroll" />
+      <div className="showcase-overlay"></div>
     </section>
   );
 };

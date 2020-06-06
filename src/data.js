@@ -7,6 +7,7 @@ export const productTypeList = [
     type: "Молочный",
     color: "#333",
     bgColor: "#fdebdb",
+    alt: "Молочный",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const productTypeList = [
     type: "Черный",
     color: "#fff",
     bgColor: "#401f19",
+    alt: "Черный",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const productTypeList = [
     type: "Двойной",
     color: "#fff",
     bgColor: "#e7b15b",
+    alt: "двойной",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const productTypeList = [
     type: "Микс",
     color: "#fff",
     bgColor: "#ef88a5",
+    alt: "микс",
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const productTypeList = [
     type: "Спешл",
     color: "#333",
     bgColor: "#fdebdb",
+    alt: "спешл",
   },
 ];
 

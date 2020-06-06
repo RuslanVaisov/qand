@@ -14,7 +14,6 @@ const ProductFilter = () => {
     <div className="categories-grid">
       <div onClick={handleClick} className="product-types-product">
         <img src={milk} alt="Молочный" />
-        <div></div>
         <p className="product-type milk">Молочный</p>
       </div>
       <div onClick={handleClick} className="product-types-product">
