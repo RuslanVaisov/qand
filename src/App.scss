@@ -18,6 +18,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: auto;
+  // scroll-snap-type: y proximity;
+}
+
 body {
   visibility: hidden;
   line-height: 1.6;
@@ -25,9 +30,11 @@ body {
   position: relative;
 }
 
-.App {
-  overflow: hidden;
-}
+// .App {
+//   & > * {
+//     scroll-snap-align: start;
+//   }
+// }
 
 .fade-appear {
   opacity: 0;

@@ -8,7 +8,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const aboutAnimation = () => {
   gsap.registerPlugin(ScrollTrigger);
 
-  let tl = gsap.timeline({ scrollTrigger: ".girl" });
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".girl",
+      scrub: 2,
+      start: "top 100%",
+      end: "top 50%",
+    },
+  });
 
   tl.from(".girl", 1.2, { y: "500", ease: "power3.easeOut" }, "Start")
     .from(".girl img", 2, { scale: 1.6, ease: "power3.easeOut" }, 0.2)
@@ -40,7 +47,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="hero">
+    <section className="about hero">
       <div className="container">
         <div className="hero-inner">
           <div className="hero-content">
@@ -96,7 +103,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

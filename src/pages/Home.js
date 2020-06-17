@@ -47,14 +47,13 @@ const homeAnimation = (completeAnimation) => {
   gsap.from(".product-types-product", 3, {
     scrollTrigger: {
       trigger: ".product-types-product",
-      start: "top 90%",
-      end: "top 50%",
-      scrub: 3,
-      markers: true,
+      start: "top 100%",
+      end: "top 70%",
+      scrub: 2,
     },
-    opacity: -1,
-    scale: 0,
-    stagger: 0.3,
+    opacity: 0,
+    y: "10vh",
+    stagger: 0.5,
   });
 };
 
@@ -75,14 +74,12 @@ const Home = () => {
 
   return (
     <React.Fragment>
-      <React.Fragment>
-        {animationComplete ? "" : <IntroOverlay />}
-        <Navbar />
-        <Showcase />
-        <ProductTypes />
-        <About />
-        <Footer />
-      </React.Fragment>
+      {animationComplete ? "" : <IntroOverlay />}
+      <Navbar />
+      <Showcase />
+      <ProductTypes />
+      <About />
+      <Footer />
     </React.Fragment>
   );
 };
