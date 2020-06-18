@@ -3,7 +3,8 @@ section.product-types {
   position: relative;
 
   .product-types-bg {
-    background: url("../../img/product-types.jpg") no-repeat center center/cover;
+    background: url("../../img/product-types.png") no-repeat center center/cover;
+    background-attachment: fixed;
     height: 50vh;
     position: relative;
 
@@ -14,13 +15,13 @@ section.product-types {
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba($color: #000000, $alpha: 0.6);
+      background-color: rgba($color: #000000, $alpha: 0.8);
       z-index: 1;
     }
 
     h1 {
       position: absolute;
-      top: 13%;
+      top: 20%;
       left: 50%;
       transform: translate(-50%, 0);
       color: #fff;

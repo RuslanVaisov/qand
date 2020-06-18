@@ -1,49 +1,45 @@
 import React, { useEffect } from "react";
 import "./About.scss";
-import said from "../../img/said.jpg";
-import rafinad from "../../img/rafinad.jpg";
+import said from "../../img/said.png";
+import rafinad from "../../img/rafinad.png";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-const aboutAnimation = () => {
-  gsap.registerPlugin(ScrollTrigger);
-
-  let tl = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".girl",
-      scrub: 2,
-      start: "top 100%",
-      end: "top 50%",
-    },
-  });
-
-  tl.from(".girl", 1.2, { y: "500", ease: "power3.easeOut" }, "Start")
-    .from(".girl img", 2, { scale: 1.6, ease: "power3.easeOut" }, 0.2)
-    .from(".boy", 1.2, { y: "500", ease: "power3.easeOut" }, 0.2)
-    .from(".boy img", 2, { scale: 1.6, ease: "power3.easeOut" }, 0.2);
-
-  // content animation
-  tl.staggerFrom(
-    ".hero-content-line-inner",
-    1,
-    { y: 44, ease: "power3.easeOut", delay: 0.8 },
-    0.15,
-    "Start"
-  ).from(
-    ".hero-content-inner p",
-    1,
-    {
-      y: 20,
-      opacity: 0,
-      ease: "power3.easeOut",
-    },
-    1.4
-  );
-};
-
 const About = () => {
   useEffect(() => {
-    aboutAnimation();
+    gsap.registerPlugin(ScrollTrigger);
+
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".girl",
+        scrub: 2,
+        start: "top 100%",
+        end: "top 80%",
+      },
+    });
+
+    tl.from(".girl", 1.2, { y: "500", ease: "power3.easeOut" }, "Start")
+      .from(".girl img", 2, { scale: 1.6, ease: "power3.easeOut" }, 0.2)
+      .from(".boy", 1.2, { y: "500", ease: "power3.easeOut" }, 0.2)
+      .from(".boy img", 2, { scale: 1.6, ease: "power3.easeOut" }, 0.2);
+
+    // content animation
+    tl.staggerFrom(
+      ".hero-content-line-inner",
+      1,
+      { y: 44, ease: "power3.easeOut", delay: 0.8 },
+      0.15,
+      "Start"
+    ).from(
+      ".hero-content-inner p",
+      1,
+      {
+        y: 20,
+        opacity: 0,
+        ease: "power3.easeOut",
+      },
+      1.4
+    );
   }, []);
 
   return (

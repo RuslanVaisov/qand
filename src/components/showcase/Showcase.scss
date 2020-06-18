@@ -1,9 +1,10 @@
 section.showcase {
   position: relative;
-  background: url("../../img/showcase-mobile.jpg") no-repeat center center/cover;
+  background: url("../../img/showcase-mobile.png") no-repeat center center/cover;
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   width: 100%;
+  overflow: hidden;
 
   img {
     width: 80px;
@@ -62,7 +63,7 @@ section.showcase {
 
 @media (min-width: 768px) {
   section.showcase {
-    background: url("../../img/showcase_2.jpg") no-repeat center center/cover;
+    background: url("../../img/showcase_2.png") no-repeat center center/cover;
   }
 
   .showcase-content {

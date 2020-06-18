@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import milk from "../../img/1.jpg";
-import dark from "../../img/2.jpg";
-import double from "../../img/3.jpg";
-import mix from "../../img/4.jpg";
-import special from "../../img/5.jpg";
+import milk from "../../img/1.png";
+import dark from "../../img/2.png";
+import double from "../../img/3.png";
+import mix from "../../img/4.png";
+import special from "../../img/5.png";
 import { ProductContext } from "../../Context";
 
 const ProductFilter = () => {
@@ -21,16 +21,16 @@ const ProductFilter = () => {
         <p className="product-type dark">Черный</p>
       </div>
       <div onClick={handleClick} className="product-types-product">
-        <img src={double} alt="двойной" />
+        <img src={double} alt="Двойной" />
         <p className="product-type ruby">Двойной</p>
       </div>
       <div onClick={handleClick} className="product-types-product">
-        <img src={mix} alt="микс" />
-        <p className="product-type gold">Микс</p>
+        <img src={mix} alt="Mix" />
+        <p className="product-type gold">Mix</p>
       </div>
       <div onClick={handleClick} className="product-types-product">
-        <img src={special} alt="спешл" />
-        <p className="product-type dessert">Спешл</p>
+        <img src={special} alt="Special" />
+        <p className="product-type dessert">Special</p>
       </div>
     </div>
   );

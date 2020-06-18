@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/navbar/Navbar";
 import Showcase from "../components/showcase/Showcase";
 import ProductTypes from "../components/productTypes/ProductTypes";
@@ -8,73 +8,68 @@ import IntroOverlay from "../components/IntroOverlay";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-const tl = gsap.timeline();
-
-const homeAnimation = (completeAnimation) => {
-  // timeline
-  tl.from(".line span", 1.8, {
-    y: 100,
-    ease: "power4.out",
-    delay: 1,
-    skewY: 7,
-
-    stagger: 0.3,
-  })
-    .to(".intro-overlay", 1, {
-      transform: "translate(0, 100%)",
-      height: 0,
-      ease: "power1",
-    })
-    .from(
-      [
-        ".navbar .logo",
-        ".navbar .hamburger",
-        ".showcase p",
-        ".showcase button",
-        ".showcase img",
-      ],
-      1,
-      {
-        opacity: 0,
-        ease: "expo.inOut",
-        onComplete: completeAnimation,
-      },
-      2.8
-    );
-
-  gsap.registerPlugin(ScrollTrigger);
-
-  gsap.from(".product-types-product", 3, {
-    scrollTrigger: {
-      trigger: ".product-types-product",
-      start: "top 100%",
-      end: "top 70%",
-      scrub: 2,
-    },
-    opacity: 0,
-    y: "10vh",
-    stagger: 0.5,
-  });
-};
-
 const Home = () => {
-  const [animationComplete, setAnimationComplete] = useState(false);
-
-  const completeAnimation = () => {
-    setAnimationComplete(true);
-  };
-
   useEffect(() => {
     // scroll to top
     window.scrollTo(0, 0);
 
-    // on load timeline
-    homeAnimation(completeAnimation);
+    const tl = gsap.timeline();
+    const tl2 = gsap.timeline();
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    tl.from(".line span", 1.5, {
+      y: 100,
+      ease: "power4.out",
+      delay: 1,
+      skewY: 7,
+
+      stagger: 0.3,
+    })
+      .to(
+        ".intro-overlay",
+        1.5,
+        {
+          transform: "translate(0, 100%)",
+          height: 0,
+          ease: "power1",
+          // delay: -1.2,
+        },
+        1.8
+      )
+      .from(
+        [
+          ".navbar .logo",
+          ".navbar .hamburger",
+          ".showcase p",
+          ".showcase button",
+          ".showcase img",
+        ],
+        2,
+        {
+          opacity: 0,
+          ease: "expo.inOut",
+          // delay: -1.2,
+        },
+        1.8
+      );
+
+    tl2.from(".product-types-product", 3, {
+      scrollTrigger: {
+        trigger: ".product-types-product",
+        start: "top 100%",
+        end: "top 70%",
+        scrub: 2,
+      },
+      opacity: 0,
+      y: "10vh",
+      stagger: 0.5,
+    });
   }, []);
 
   return (
     <React.Fragment>
-      {animationComplete ? "" : <IntroOverlay />}
+      <IntroOverlay />
       <Navbar />
       <Showcase />
       <ProductTypes />
