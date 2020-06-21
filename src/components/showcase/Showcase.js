@@ -1,6 +1,7 @@
 import React from "react";
 import "./Showcase.scss";
 import scroll2 from "../../img/scroll2.gif";
+import { Link } from "react-scroll";
 
 const Showcase = () => {
   return (
@@ -28,7 +29,18 @@ const Showcase = () => {
           </a>
         </button>
       </div>
-      <img src={scroll2} alt="scroll" />
+      <Link
+        activeClass="active"
+        to="products"
+        spy={true}
+        smooth={true}
+        hashSpy={true}
+        duration={1000}
+        isDynamic={true}
+        ignoreCancelEvents={false}
+      >
+        <img src={scroll2} alt="scroll" />
+      </Link>
       <div className="showcase-overlay"></div>
     </section>
   );

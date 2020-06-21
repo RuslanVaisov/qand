@@ -26,7 +26,7 @@ export const productTypeList = [
     info: "Состав: молочный шоколад, имбирь, кедровые орехи",
     type: "Двойной",
     color: "#fff",
-    bgColor: "#e7b15b",
+    bgColor: "#333",
     alt: "Двойной",
   },
   {
@@ -35,8 +35,8 @@ export const productTypeList = [
     img: "img/4.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Mix",
-    color: "#fff",
-    bgColor: "#ef88a5",
+    color: "#333",
+    bgColor: "#fdebdb",
     alt: "Mix",
   },
   {
@@ -45,8 +45,8 @@ export const productTypeList = [
     img: "img/5.png",
     info: "Состав: молочный шоколад, клюква",
     type: "Special",
-    color: "#333",
-    bgColor: "#fdebdb",
+    color: "#fff",
+    bgColor: "#ef88a5",
     alt: "Special",
   },
 ];
@@ -55,7 +55,7 @@ export const productList = [
   {
     id: 1,
     title: "Dates",
-    img: "img/products/milk/dates.jpg",
+    img: "img/products/milk/dates.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Молочный",
     color: "#333",
@@ -65,7 +65,7 @@ export const productList = [
   {
     id: 2,
     title: "Pistachios",
-    img: "img/products/milk/pistachios.jpg",
+    img: "img/products/milk/pistachios.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Молочный",
     color: "#333",
@@ -75,7 +75,7 @@ export const productList = [
   {
     id: 3,
     title: "Salted Almond",
-    img: "img/products/milk/Salted almond.jpg",
+    img: "img/products/milk/Salted almond.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Молочный",
     color: "#333",
@@ -85,7 +85,7 @@ export const productList = [
   {
     id: 4,
     title: "Walnut and Raisins",
-    img: "img/products/milk/Walnut and raisins.jpg",
+    img: "img/products/milk/Walnut and raisins.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Молочный",
     color: "#333",
@@ -95,7 +95,7 @@ export const productList = [
   {
     id: 5,
     title: "Dates Dark",
-    img: "img/products/dark/dates dark.jpg",
+    img: "img/products/dark/dates dark.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Черный",
     color: "#333",
@@ -105,7 +105,7 @@ export const productList = [
   {
     id: 6,
     title: "Pistachios Dates",
-    img: "img/products/dark/pistachios dark.jpg",
+    img: "img/products/dark/pistachios dark.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Черный",
     color: "#333",
@@ -115,7 +115,7 @@ export const productList = [
   {
     id: 7,
     title: "Salted Almond Dark",
-    img: "img/products/dark/Salted almond dark.jpg",
+    img: "img/products/dark/Salted almond dark.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Черный",
     color: "#333",
@@ -125,7 +125,7 @@ export const productList = [
   {
     id: 8,
     title: "Walnut and Raisins Dark",
-    img: "img/products/dark/Walnut and raisins dark.jpg",
+    img: "img/products/dark/Walnut and raisins dark.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Черный",
     color: "#333",
@@ -135,7 +135,7 @@ export const productList = [
   {
     id: 9,
     title: "Apricot and Pistachios",
-    img: "img/products/double/Apricot and pistachios.jpg",
+    img: "img/products/double/Apricot and pistachios.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Двойной",
     color: "#333",
@@ -145,7 +145,7 @@ export const productList = [
   {
     id: 10,
     title: "Coconut and Pecan",
-    img: "img/products/double/Coconut and pecan.jpg",
+    img: "img/products/double/Coconut and pecan.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Двойной",
     color: "#333",
@@ -155,7 +155,7 @@ export const productList = [
   {
     id: 11,
     title: "Mango and Walnut",
-    img: "img/products/double/Mango and walnut.jpg",
+    img: "img/products/double/Mango and walnut.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Двойной",
     color: "#333",
@@ -165,7 +165,7 @@ export const productList = [
   {
     id: 12,
     title: "Passion Fruit and Walnut",
-    img: "img/products/double/Passion fruit and walnut.jpg",
+    img: "img/products/double/Passion fruit and walnut.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Двойной",
     color: "#333",
@@ -175,7 +175,7 @@ export const productList = [
   {
     id: 13,
     title: "Pecan and Prunes",
-    img: "img/products/double/Pecan and prunes.jpg",
+    img: "img/products/double/Pecan and prunes.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Двойной",
     color: "#333",
@@ -185,7 +185,7 @@ export const productList = [
   {
     id: 14,
     title: "Pineapple & Walnut",
-    img: "img/products/double/Pine apple & walnut.jpg",
+    img: "img/products/double/Pine apple & walnut.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Двойной",
     color: "#333",
@@ -195,7 +195,7 @@ export const productList = [
   {
     id: 15,
     title: "Waffles",
-    img: "img/products/double/Waffles.jpg",
+    img: "img/products/double/Waffles.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Двойной",
     color: "#333",
@@ -205,7 +205,7 @@ export const productList = [
   {
     id: 16,
     title: "Dessert",
-    img: "img/products/mixed/dessert.jpg",
+    img: "img/products/mixed/dessert.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Mix",
     color: "#333",
@@ -215,7 +215,7 @@ export const productList = [
   {
     id: 17,
     title: "Hot",
-    img: "img/products/mixed/hot.jpg",
+    img: "img/products/mixed/hot.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Mix",
     color: "#333",
@@ -225,7 +225,7 @@ export const productList = [
   {
     id: 18,
     title: "New Line",
-    img: "img/products/mixed/new line.jpg",
+    img: "img/products/mixed/new line.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Mix",
     color: "#333",
@@ -235,7 +235,7 @@ export const productList = [
   {
     id: 19,
     title: "Truffel",
-    img: "img/products/mixed/truffel.jpg",
+    img: "img/products/mixed/truffel.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Mix",
     color: "#333",
@@ -245,7 +245,7 @@ export const productList = [
   {
     id: 20,
     title: "Gold",
-    img: "img/products/special/gold.jpg",
+    img: "img/products/special/gold.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Special",
     color: "#333",
@@ -255,7 +255,7 @@ export const productList = [
   {
     id: 21,
     title: "Ruby",
-    img: "img/products/special/ruby.jpg",
+    img: "img/products/special/ruby.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Special",
     color: "#333",

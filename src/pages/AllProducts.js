@@ -9,27 +9,31 @@ const AllProducts = () => {
 
     const tl = gsap.timeline();
 
-    tl.from(".product-types-product", 3, {
-      y: "100vh",
+    tl.from(".product-types-product", 1, {
+      y: "10vh",
+      delay: 0.5,
       opacity: 0,
-      delay: 1,
-      scale: 0.5,
       ease: "power4.inOut",
-      stagger: 0.3,
+      stagger: 0.1,
     })
-      .from(".product-type", 1, {
-        opacity: 0,
-        scale: 0,
-        ease: "expo.inOut",
-      })
       .from(
         ".all-products-logo",
-        1,
+        0.5,
         {
           y: -100,
           ease: "power3",
         },
-        3
+        1
+      )
+      .from(
+        ".single-product-grid",
+        1.5,
+        {
+          y: "20vh",
+          ease: "power4.inOut",
+          opacity: 0,
+        },
+        0.5
       );
   }, []);
 

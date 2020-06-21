@@ -57,7 +57,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               hashSpy={true}
-              duration={500}
+              duration={1000}
               isDynamic={true}
               ignoreCancelEvents={false}
             >
@@ -72,7 +72,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               hashSpy={true}
-              duration={750}
+              duration={1500}
               isDynamic={true}
               ignoreCancelEvents={false}
             >
@@ -87,7 +87,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               hashSpy={true}
-              duration={1250}
+              duration={2000}
               isDynamic={true}
               ignoreCancelEvents={false}
             >

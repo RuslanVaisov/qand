@@ -21,21 +21,21 @@ const Home = () => {
     tl.from(".line span", 1.5, {
       y: 100,
       ease: "power4.out",
-      delay: 1,
+      delay: 0.5,
       skewY: 7,
 
       stagger: 0.3,
     })
       .to(
         ".intro-overlay",
-        1.5,
+        1,
         {
           transform: "translate(0, 100%)",
           height: 0,
           ease: "power1",
           // delay: -1.2,
         },
-        1.8
+        1.3
       )
       .from(
         [
@@ -45,24 +45,24 @@ const Home = () => {
           ".showcase button",
           ".showcase img",
         ],
-        2,
+        1,
         {
           opacity: 0,
           ease: "expo.inOut",
           // delay: -1.2,
         },
-        1.8
+        1.3
       );
 
     tl2.from(".product-types-product", 3, {
       scrollTrigger: {
         trigger: ".product-types-product",
         start: "top 100%",
-        end: "top 70%",
+        end: "top 90%",
         scrub: 2,
       },
       opacity: 0,
-      y: "10vh",
+      y: "20vh",
       stagger: 0.5,
     });
   }, []);
