@@ -5,6 +5,7 @@ import ProductTypes from "../components/productTypes/ProductTypes";
 import About from "../components/about/About";
 import Footer from "../components/footer/Footer";
 import IntroOverlay from "../components/IntroOverlay";
+
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -33,7 +34,6 @@ const Home = () => {
           transform: "translate(0, 100%)",
           height: 0,
           ease: "power1",
-          // delay: -1.2,
         },
         1.3
       )
@@ -49,7 +49,6 @@ const Home = () => {
         {
           opacity: 0,
           ease: "expo.inOut",
-          // delay: -1.2,
         },
         1.3
       );
