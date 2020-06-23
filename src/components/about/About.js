@@ -51,7 +51,7 @@ const About = () => {
               <h1>
                 <div className="hero-content-line">
                   <div className="hero-content-line-inner">
-                    Qand - в переводе с узбекского означает "конфета".
+                    Qand - в переводе с узбекского
                   </div>
                 </div>
                 <div className="hero-content-line">
