@@ -74,7 +74,7 @@ export const productList = [
   },
   {
     id: 3,
-    title: "salted Almond",
+    title: "salted almond",
     img: "img/products/milk/Salted almond.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Молочный",
@@ -84,7 +84,7 @@ export const productList = [
   },
   {
     id: 4,
-    title: "walnut and Raisins",
+    title: "walnut and raisins",
     img: "img/products/milk/Walnut and raisins.png",
     info: "Состав: шоколад тёмный, грецкие орехи, киш-миш",
     type: "Молочный",
@@ -227,7 +227,7 @@ export const productList = [
   },
   {
     id: 18,
-    title: "New Line",
+    title: "new line",
     img: "img/products/mixed/new line.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Mix",
