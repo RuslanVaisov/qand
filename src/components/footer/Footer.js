@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="contact-info">
           <div>
             <FaPhone />
-            <p>(90) 925-63-93</p>
+            <p>(99) 001 55 88</p>
           </div>
           <div>
             <FaEnvelope />
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div>
             <FaMapMarkerAlt />
-            <p> Юнусабад, 34</p>
+            <p>Юнусабад, Олой бозори 5</p>
           </div>
         </div>
         <div className="social-media">

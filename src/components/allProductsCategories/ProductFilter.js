@@ -17,12 +17,12 @@ const ProductFilter = () => {
         <p className="product-type milk">Молочный</p>
       </div>
       <div onClick={handleClick} className="product-types-product">
-        <img src={dark} alt="Черный" />
-        <p className="product-type dark">Черный</p>
+        <img src={dark} alt="Темный" />
+        <p className="product-type dark">Темный</p>
       </div>
       <div onClick={handleClick} className="product-types-product">
-        <img src={double} alt="Двойной" />
-        <p className="product-type double">Двойной</p>
+        <img src={double} alt="Double" />
+        <p className="product-type double">Double</p>
       </div>
       <div onClick={handleClick} className="product-types-product">
         <img src={mix} alt="Mix" />

@@ -14,6 +14,10 @@ section.footer {
     .contact-info {
       padding: 1.5rem 2rem;
       font-size: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
 
       & > * {
         display: flex;
@@ -87,14 +91,42 @@ section.footer {
 
 @media (min-width: 768px) {
   section.footer {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
     .footer-grid {
       flex-direction: row;
     }
 
     .copyright {
-      flex-direction: row;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      color: #999;
+      max-width: 1024px;
+      margin: auto;
+      text-align: left;
+      padding: 1.5rem 1.5rem 0rem 1.5rem;
+      font-size: 0.7rem;
+
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+      }
+
+      img {
+        display: flex;
+        justify-content: center;
+        margin: 0 0.5rem;
+      }
+
+      a {
+        color: #fff;
+        font-size: 0.9rem;
+        padding: 0 0.2rem;
+      }
     }
   }
 }
