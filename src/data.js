@@ -54,9 +54,9 @@ export const productTypeList = [
 export const productList = [
   {
     id: 1,
-    title: "Dates",
+    title: "dates",
     img: "img/products/milk/dates.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info: "Состав: шоколад молочный, финики Аджва, миндаль, соль Гималайская",
     type: "Молочный",
     color: "#333",
     bgColor: "#fdebdb",
@@ -64,7 +64,7 @@ export const productList = [
   },
   {
     id: 2,
-    title: "Pistachios",
+    title: "pistachios",
     img: "img/products/milk/pistachios.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Молочный",
@@ -74,7 +74,7 @@ export const productList = [
   },
   {
     id: 3,
-    title: "Salted Almond",
+    title: "salted Almond",
     img: "img/products/milk/Salted almond.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Молочный",
@@ -84,9 +84,9 @@ export const productList = [
   },
   {
     id: 4,
-    title: "Walnut and Raisins",
+    title: "walnut and Raisins",
     img: "img/products/milk/Walnut and raisins.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info: "Состав: шоколад тёмный, грецкие орехи, киш-миш",
     type: "Молочный",
     color: "#333",
     bgColor: "#fdebdb",
@@ -94,9 +94,9 @@ export const productList = [
   },
   {
     id: 5,
-    title: "Dates Dark",
+    title: "dates dark",
     img: "img/products/dark/dates dark.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info: "Состав: шоколад тёмный, финики Аджва, миндаль, соль Гималайская",
     type: "Темный",
     color: "#333",
     bgColor: "#fdebdb",
@@ -104,7 +104,7 @@ export const productList = [
   },
   {
     id: 6,
-    title: "Pistachios Dates",
+    title: "pistachios dates",
     img: "img/products/dark/pistachios dark.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Темный",
@@ -114,7 +114,7 @@ export const productList = [
   },
   {
     id: 7,
-    title: "Salted Almond Dark",
+    title: "salted almond dark",
     img: "img/products/dark/Salted almond dark.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Темный",
@@ -124,7 +124,7 @@ export const productList = [
   },
   {
     id: 8,
-    title: "Walnut and Raisins Dark",
+    title: "walnut and raisins dark",
     img: "img/products/dark/Walnut and raisins dark.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Темный",
@@ -134,9 +134,9 @@ export const productList = [
   },
   {
     id: 9,
-    title: "Apricot and Pistachios",
+    title: "apricot and pistachios",
     img: "img/products/double/Apricot and pistachios.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info: "Состав: шоколад молочный, шоколад тёмный, фисташки, курага",
     type: "Double",
     color: "#333",
     bgColor: "#fdebdb",
@@ -144,9 +144,10 @@ export const productList = [
   },
   {
     id: 10,
-    title: "Coconut and Pecan",
+    title: "coconut and pecan",
     img: "img/products/double/Coconut and pecan.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info:
+      "Состав: шоколад молочный, шоколад тёмный, кокос сушёный, орехи пекан",
     type: "Double",
     color: "#333",
     bgColor: "#fdebdb",
@@ -154,7 +155,7 @@ export const productList = [
   },
   {
     id: 11,
-    title: "Mango and Walnut",
+    title: "mango and walnut",
     img: "img/products/double/Mango and walnut.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Double",
@@ -164,7 +165,7 @@ export const productList = [
   },
   {
     id: 12,
-    title: "Passion Fruit and Walnut",
+    title: "passion fruit and walnut",
     img: "img/products/double/Passion fruit and walnut.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Double",
@@ -174,7 +175,7 @@ export const productList = [
   },
   {
     id: 13,
-    title: "Pecan and Prunes",
+    title: "pecan and prunes",
     img: "img/products/double/Pecan and prunes.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Double",
@@ -184,9 +185,10 @@ export const productList = [
   },
   {
     id: 14,
-    title: "Pineapple & Walnut",
+    title: "pineapple & walnut",
     img: "img/products/double/Pine apple & walnut.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info:
+      "Состав: шоколад молочный, шоколад тёмный, грецкие орехи, ананас сушёный",
     type: "Double",
     color: "#333",
     bgColor: "#fdebdb",
@@ -194,9 +196,9 @@ export const productList = [
   },
   {
     id: 15,
-    title: "Waffles",
+    title: "waffles",
     img: "img/products/double/Waffles.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info: "Состав: шоколад молочный, шоколад тёмный, вафли, орехи пекан",
     type: "Double",
     color: "#333",
     bgColor: "#fdebdb",
@@ -204,9 +206,10 @@ export const productList = [
   },
   {
     id: 16,
-    title: "Dessert",
+    title: "dessert",
     img: "img/products/mixed/dessert.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info:
+      "Состав: шоколад молочный, шоколад Gold, творог, сливки, клубника, фисташки, орехи пекан, киш-миш",
     type: "Mix",
     color: "#333",
     bgColor: "#fdebdb",
@@ -216,7 +219,7 @@ export const productList = [
     id: 17,
     title: "HOT",
     img: "img/products/mixed/hot.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info: "Состав: шоколад тёмный, острый перец, миндаль, соль Гималайская",
     type: "Mix",
     color: "#333",
     bgColor: "#fdebdb",
@@ -234,9 +237,9 @@ export const productList = [
   },
   {
     id: 19,
-    title: "Truffel",
+    title: "truffles",
     img: "img/products/mixed/truffel.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info: "Состав: шоколад тёмный, шоколад Ruby, какао, соль Гималайская",
     type: "Mix",
     color: "#333",
     bgColor: "#fdebdb",
@@ -244,9 +247,9 @@ export const productList = [
   },
   {
     id: 20,
-    title: "Gold",
+    title: "gold",
     img: "img/products/special/gold.png",
-    info: "Состав: молочный шоколад, кешью, кедровые орехи",
+    info: "Состав: шоколад Gold, миндаль, соль Гималайская",
     type: "Special",
     color: "#333",
     bgColor: "#fdebdb",
@@ -254,7 +257,7 @@ export const productList = [
   },
   {
     id: 21,
-    title: "Ruby",
+    title: "ruby",
     img: "img/products/special/ruby.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Special",
