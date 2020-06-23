@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/" component={Home}></Route>
+        <Route exact path="/" component={Home} />
         <Route exact path="/all-products" component={AllProducts} />
         <Route component={Error} />
       </Switch>

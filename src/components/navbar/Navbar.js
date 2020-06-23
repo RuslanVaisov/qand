@@ -53,7 +53,7 @@ const Navbar = () => {
             <Link
               onClick={handleToggle}
               activeClass="active"
-              to="products"
+              to="product-types"
               spy={true}
               smooth={true}
               hashSpy={true}

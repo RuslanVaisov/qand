@@ -22,15 +22,15 @@ const ProductFilter = () => {
       </div>
       <div onClick={handleClick} className="product-types-product">
         <img src={double} alt="Двойной" />
-        <p className="product-type ruby">Двойной</p>
+        <p className="product-type double">Двойной</p>
       </div>
       <div onClick={handleClick} className="product-types-product">
         <img src={mix} alt="Mix" />
-        <p className="product-type gold">Mix</p>
+        <p className="product-type mix">Mix</p>
       </div>
       <div onClick={handleClick} className="product-types-product">
         <img src={special} alt="Special" />
-        <p className="product-type dessert">Special</p>
+        <p className="product-type special">Special</p>
       </div>
     </div>
   );

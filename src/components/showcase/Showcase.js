@@ -31,7 +31,7 @@ const Showcase = () => {
       </div>
       <Link
         activeClass="active"
-        to="products"
+        to="product-types"
         spy={true}
         smooth={true}
         hashSpy={true}

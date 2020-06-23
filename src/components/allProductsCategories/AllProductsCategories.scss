@@ -12,7 +12,7 @@
   }
 
   .all-products-logo {
-    width: 150px;
+    width: 120px;
   }
 }
 
@@ -26,10 +26,11 @@
 
   p.product-type {
     font-size: 1rem;
+    padding: 0.25rem 0;
   }
 
   .milk {
-    background: #fdebdb;
+    background: #fdf0e3;
     opacity: 0.9;
     color: #333;
   }
@@ -37,17 +38,17 @@
     background: #401f19;
     opacity: 0.9;
   }
-  .ruby {
-    background: #333;
+  .double {
+    background: #401f19;
     opacity: 0.9;
   }
-  .gold {
-    background: #fdebdb;
+  .mix {
+    background: #ae4a84;
     opacity: 0.9;
-    color: #333;
+    color: #fff;
   }
-  .dessert {
-    background: #ef88a5;
+  .special {
+    background: #f1b647;
     opacity: 0.9;
   }
 }
