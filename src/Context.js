@@ -9,6 +9,7 @@ class ProductProvider extends Component {
     productList: productList,
     sortedProducts: productList,
     alt: "all",
+    headText: "все продукты",
   };
 
   handleClick = (event) => {
@@ -16,15 +17,16 @@ class ProductProvider extends Component {
     this.setState(
       {
         alt,
+        headText: alt,
       },
       this.filterProducts
     );
   };
 
   filterProducts = (event) => {
-    let { productList, alt } = this.state;
+    let { productList, alt, headText } = this.state;
     let tempProducts = [...productList];
-    if (alt !== "all") {
+    if (alt !== "all" && headText !== "Все продукты") {
       tempProducts = tempProducts.filter((products) => products.alt === alt);
     }
 

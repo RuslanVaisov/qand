@@ -26,7 +26,7 @@ const AllProducts = () => {
         1
       )
       .from(
-        ".single-product-grid",
+        ".single-product-grid, .headText",
         1.5,
         {
           y: "20vh",
