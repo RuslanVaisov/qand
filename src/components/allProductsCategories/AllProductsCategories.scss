@@ -24,17 +24,13 @@
   width: 80%;
   margin-bottom: 2rem;
 
-  & > * {
-    transition: transform 0.2s ease-out;
+  // & > * {
+  //   transition: transform 0.2s ease-out;
 
-    &:hover {
-      transform: scale(1.05) !important;
-    }
-  }
-
-  .active {
-    transform: scale(1.05) !important;
-  }
+  //   &:hover {
+  //     transform: translate(0, -1rem) !important;
+  //   }
+  // }
 
   p.product-type {
     font-size: 1rem;
@@ -69,7 +65,7 @@
   text-align: center;
   margin: 0 auto;
   margin-top: 10rem;
-  width: 200px;
+  width: 300px;
   padding: 0.5rem;
 }
 

@@ -48,7 +48,7 @@ const ProductFilter = () => {
               ? "#AE4A84"
               : headText === "Special"
               ? "#F1B647"
-              : "#fff",
+              : "#333",
           color:
             headText === "Молочный"
               ? "#333"
@@ -60,7 +60,7 @@ const ProductFilter = () => {
               ? "#fff"
               : headText === "Special"
               ? "#fff"
-              : "#333",
+              : "#fff",
         }}
       >
         {headText.toLowerCase()}
