@@ -1,3 +1,7 @@
+.productFilter {
+  width: 100%;
+}
+
 .all-products-header {
   width: 100%;
   margin: auto;
@@ -22,15 +26,15 @@
   grid-gap: 1rem;
   margin: auto;
   width: 80%;
-  margin-bottom: 2rem;
+  padding-bottom: 4rem;
 
-  // & > * {
-  //   transition: transform 0.2s ease-out;
+  & > * {
+    transition: transform 0.2s ease-out;
 
-  //   &:hover {
-  //     transform: translate(0, -1rem) !important;
-  //   }
-  // }
+    &:hover {
+      transform: translate(0, -1rem) !important;
+    }
+  }
 
   p.product-type {
     font-size: 1rem;
@@ -80,7 +84,7 @@
 
 @media (max-width: 1024px) {
   .all-products-header {
-    width: 90%;
+    width: 100%;
     padding: 3rem 0;
 
     .all-products-logo {
@@ -104,7 +108,7 @@
 
 @media (max-width: 768px) {
   .all-products-header {
-    width: 95%;
+    width: 100%;
     padding: 2rem 0;
 
     .all-products-logo {

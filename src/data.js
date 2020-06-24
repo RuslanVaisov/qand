@@ -84,7 +84,7 @@ export const productList = [
   },
   {
     id: 4,
-    title: "walnut and raisins",
+    title: "walnut & raisins",
     img: "img/products/milk/Walnut and raisins.png",
     info: "Состав: шоколад молочный, грецкие орехи, киш-миш",
     type: "Молочный",
@@ -94,7 +94,7 @@ export const productList = [
   },
   {
     id: 5,
-    title: "dates dark",
+    title: "dates",
     img: "img/products/dark/dates dark.png",
     info: "Состав: шоколад тёмный, финики Аджва, миндаль, соль Гималайская",
     type: "Темный",
@@ -104,7 +104,7 @@ export const productList = [
   },
   {
     id: 6,
-    title: "pistachios dates",
+    title: "pistachios",
     img: "img/products/dark/pistachios dark.png",
     info: "Состав: шоколад тёмный, фисташки",
     type: "Темный",
@@ -114,7 +114,7 @@ export const productList = [
   },
   {
     id: 7,
-    title: "salted almond dark",
+    title: "salted almond",
     img: "img/products/dark/Salted almond dark.png",
     info: "Состав: шоколад тёмный, миндаль, соль Гималайская",
     type: "Темный",
@@ -124,7 +124,7 @@ export const productList = [
   },
   {
     id: 8,
-    title: "walnut and raisins dark",
+    title: "walnut & raisins",
     img: "img/products/dark/Walnut and raisins dark.png",
     info: "Состав: шоколад тёмный, грецкие орехи, киш-миш",
     type: "Темный",
@@ -134,7 +134,7 @@ export const productList = [
   },
   {
     id: 9,
-    title: "apricot and pistachios",
+    title: "apricot & pistachios",
     img: "img/products/double/Apricot and pistachios.png",
     info: "Состав: шоколад молочный, шоколад тёмный, фисташки, курага",
     type: "Double",
@@ -144,7 +144,7 @@ export const productList = [
   },
   {
     id: 10,
-    title: "coconut and pecan",
+    title: "coconut & pecan",
     img: "img/products/double/Coconut and pecan.png",
     info:
       "Состав: шоколад молочный, шоколад тёмный, кокос сушёный, орехи пекан",
@@ -155,7 +155,7 @@ export const productList = [
   },
   {
     id: 11,
-    title: "mango and walnut",
+    title: "mango & walnut",
     img: "img/products/double/Mango and walnut.png",
     info: "Состав: шоколад молочный, шоколад тёмный, манго, грецкий орех",
     type: "Double",
@@ -165,7 +165,7 @@ export const productList = [
   },
   {
     id: 12,
-    title: "passion fruit and walnut",
+    title: "passion fruit & walnut",
     img: "img/products/double/Passion fruit and walnut.png",
     info: "Состав: шоколад молочный, шоколад тёмный, маракуйя, грецкий орех",
     type: "Double",
@@ -175,7 +175,7 @@ export const productList = [
   },
   {
     id: 13,
-    title: "pecan and prunes",
+    title: "pecan & prunes",
     img: "img/products/double/Pecan and prunes.png",
     info: "Состав: шоколад молочный, шоколад тёмный, орехи пекан, чернослив",
     type: "Double",

@@ -11,7 +11,23 @@ const ProductFilter = () => {
   const { handleClick, headText } = context;
 
   return (
-    <>
+    <div
+      style={{
+        backgroundColor:
+          headText === "Молочный"
+            ? "#FDF0E3"
+            : headText === "Темный"
+            ? "#401F19"
+            : headText === "Double"
+            ? "#401F19"
+            : headText === "Mix"
+            ? "#AE4A84"
+            : headText === "Special"
+            ? "#F1B647"
+            : "#fff",
+      }}
+      className="productFilter"
+    >
       <div className="categories-grid">
         <div onClick={handleClick} className="product-types-product">
           <img src={milk} alt="Молочный" />
@@ -34,38 +50,7 @@ const ProductFilter = () => {
           <p className="product-type special">Special</p>
         </div>
       </div>
-      <h1
-        className="headText"
-        style={{
-          backgroundColor:
-            headText === "Молочный"
-              ? "#FDF0E3"
-              : headText === "Темный"
-              ? "#401F19"
-              : headText === "Double"
-              ? "#401F19"
-              : headText === "Mix"
-              ? "#AE4A84"
-              : headText === "Special"
-              ? "#F1B647"
-              : "#333",
-          color:
-            headText === "Молочный"
-              ? "#333"
-              : headText === "Темный"
-              ? "#fff"
-              : headText === "Double"
-              ? "#fff"
-              : headText === "Mix"
-              ? "#fff"
-              : headText === "Special"
-              ? "#fff"
-              : "#fff",
-        }}
-      >
-        {headText.toLowerCase()}
-      </h1>
-    </>
+    </div>
   );
 };
 
