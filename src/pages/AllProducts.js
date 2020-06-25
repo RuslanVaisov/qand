@@ -9,12 +9,11 @@ const AllProducts = () => {
 
     const tl = gsap.timeline();
 
-    tl.from(".product-types-product", 1, {
-      y: "10vh",
+    tl.from(".categories-grid", 1, {
       delay: 0.5,
       opacity: 0,
       ease: "power4.inOut",
-      stagger: 0.1,
+      // stagger: 0.1,
     })
       .from(
         ".all-products-logo",
