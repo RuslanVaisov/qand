@@ -108,6 +108,7 @@
 
 @media (max-width: 768px) {
   .hero {
+    height: 100%;
     .container {
       .hero-inner {
         .hero-content {
@@ -124,5 +125,25 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 425px) {
+  .hero {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero {
+    margin-top: 12rem;
   }
 }

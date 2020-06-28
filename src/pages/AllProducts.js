@@ -13,7 +13,7 @@ const AllProducts = () => {
       delay: 0.5,
       opacity: 0,
       ease: "power4.inOut",
-      // stagger: 0.1,
+      stagger: 0.1,
     })
       .from(
         ".all-products-logo",
