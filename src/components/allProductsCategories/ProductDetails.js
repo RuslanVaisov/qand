@@ -9,7 +9,7 @@ const ProductDetails = ({ product }) => {
       <div className="product-details-content">
         <h2 style={{ color: altBg }}>{title}</h2>
         <p>{info}</p>
-        <p
+        {/* <p
           style={{
             background: bgColor,
             width: "120px",
@@ -22,7 +22,7 @@ const ProductDetails = ({ product }) => {
           }}
         >
           {alt}
-        </p>
+        </p> */}
       </div>
     </div>
   );

@@ -13,42 +13,59 @@ const ProductFilter = () => {
   return (
     <div
       style={{
-        backgroundColor:
+        borderBottom:
           headText === "Молочный"
-            ? "#FDF0E3"
+            ? "#f1b647 1.5px solid"
             : headText === "Темный"
-            ? "#401F19"
+            ? "#401F19 1.5px solid"
             : headText === "Double"
-            ? "#401F19"
+            ? "#401F19 1.5px solid"
             : headText === "Mix"
-            ? "#AE4A84"
+            ? "#AE4A84 1.5px solid"
             : headText === "Special"
-            ? "#F1B647"
+            ? "#F1B647 1.5px solid"
             : "#fff",
+        width: "88%",
+        margin: "0 auto",
       }}
       className="productFilter"
     >
       <div className="categories-grid">
-        <div onClick={handleClick} className="product-types-product">
+        <button onClick={handleClick} className="product-types-product">
           <img src={milk} alt="Молочный" />
-          <p className="product-type milk">Молочный</p>
-        </div>
-        <div onClick={handleClick} className="product-types-product">
+          <div className="product-type milk">
+            <p>Молочный</p>
+            <span></span>
+          </div>
+        </button>
+        <button onClick={handleClick} className="product-types-product">
           <img src={dark} alt="Темный" />
-          <p className="product-type dark">Темный</p>
-        </div>
-        <div onClick={handleClick} className="product-types-product">
+          <div className="product-type dark">
+            <p>Темный</p>
+            <span></span>
+          </div>
+        </button>
+        <button onClick={handleClick} className="product-types-product">
           <img src={double} alt="Double" />
-          <p className="product-type double">Double</p>
-        </div>
-        <div onClick={handleClick} className="product-types-product">
+          <div className="product-type double">
+            <p>Double</p>
+            <span></span>
+          </div>
+        </button>
+        <button onClick={handleClick} className="product-types-product">
           <img src={mix} alt="Mix" />
-          <p className="product-type mix">Mix</p>
-        </div>
-        <div onClick={handleClick} className="product-types-product">
+          <div className="product-type mix">
+            <p>Mix</p>
+            <span></span>
+          </div>
+        </button>
+        <button onClick={handleClick} className="product-types-product">
           <img src={special} alt="Special" />
-          <p className="product-type special">Special</p>
-        </div>
+          <div className="product-type special">
+            <p>Special</p>
+            <span></span>
+          </div>
+        </button>
       </div>
     </div>
   );

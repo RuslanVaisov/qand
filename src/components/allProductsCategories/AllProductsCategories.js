@@ -13,31 +13,34 @@ const AllProductsCategories = ({ context }) => {
   return (
     <React.Fragment>
       <div
-        style={{
-          backgroundColor:
-            headText === "Молочный"
-              ? "#FDF0E3"
-              : headText === "Темный"
-              ? "#401F19"
-              : headText === "Double"
-              ? "#401F19"
-              : headText === "Mix"
-              ? "#AE4A84"
-              : headText === "Special"
-              ? "#F1B647"
-              : "#fff",
-        }}
+        style={
+          {
+            // backgroundColor:
+            //   headText === "Молочный"
+            //     ? "#FDF0E3"
+            //     : headText === "Темный"
+            //     ? "#401F19"
+            //     : headText === "Double"
+            //     ? "#401F19"
+            //     : headText === "Mix"
+            //     ? "#AE4A84"
+            //     : headText === "Special"
+            //     ? "#F1B647"
+            //     : "#fff",
+          }
+        }
         className="all-products-header"
       >
         <Link to="/">
           <img
             className="all-products-logo"
             src={
-              headText === "Молочный"
-                ? logo
-                : headText === "все продукты"
-                ? logo
-                : logoWhite
+              // headText === "Молочный"
+              //   ? logo
+              //   : headText === "все продукты"
+              //   ? logo
+              //   : logoWhite
+              logo
             }
             alt=""
           />
