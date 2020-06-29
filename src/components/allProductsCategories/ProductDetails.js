@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProductDetails = ({ product }) => {
-  const { img, title, info, alt, bgColor, color, altBg } = product;
+  const { img, title, info, altBg } = product;
 
   return (
     <div className="product-details">

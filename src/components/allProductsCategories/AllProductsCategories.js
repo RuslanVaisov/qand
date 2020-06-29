@@ -4,11 +4,11 @@ import { withProductConsumer } from "../../Context";
 import SingleProduct from "./SingleProduct";
 import ProductFilter from "./ProductFilter";
 import logo from "../../img/logo-black.png";
-import logoWhite from "../../img/logo.png";
+// import logoWhite from "../../img/logo.png";
 
 import { Link } from "react-router-dom";
 const AllProductsCategories = ({ context }) => {
-  const { products, sortedProducts, headText } = context;
+  const { products, sortedProducts } = context;
 
   return (
     <React.Fragment>
