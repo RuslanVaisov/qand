@@ -15,7 +15,7 @@ const ProductFilter = () => {
       style={{
         borderBottom:
           headText === "Молочный"
-            ? "#f1b647 1.5px solid"
+            ? "#dda975 1.5px solid"
             : headText === "Темный"
             ? "#401F19 1.5px solid"
             : headText === "Double"
