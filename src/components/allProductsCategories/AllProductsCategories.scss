@@ -48,7 +48,6 @@
       outline: none;
 
       .product-type {
-        padding: 0.25rem;
         box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.3);
         z-index: 2;
       }
@@ -121,7 +120,7 @@
   padding: 3rem 1rem 3rem 1rem;
 
   .product-details {
-    box-shadow: 1px 0px 2px 2px rgba($color: #000000, $alpha: 0.1);
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.3);
 
     .product-details-content {
       h2 {
@@ -199,7 +198,7 @@
 
         .product-type {
           padding: 0.25rem;
-          box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.3);
           z-index: 2;
         }
 
