@@ -25,7 +25,7 @@ const ProductFilter = () => {
             : headText === "Special"
             ? "#F1B647 1.5px solid"
             : "#fff",
-        width: "88%",
+        width: "95%",
         margin: "0 auto",
       }}
       className="productFilter"
