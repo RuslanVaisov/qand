@@ -43,13 +43,13 @@
     }
 
     &:focus {
-      transform: translate(0, 1.6rem);
+      transform: translate(0, 1.55rem);
       z-index: 2;
       outline: none;
 
       .product-type {
         padding: 0.25rem;
-        box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.3);
         z-index: 2;
       }
 
