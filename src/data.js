@@ -5,8 +5,8 @@ export const productTypeList = [
     img: "img/1.png",
     info: "Состав: молочный шоколад, кешью, кедровые орехи",
     type: "Молочный",
-    color: "#555",
-    bgColor: "#FDF0E3",
+    color: "#fff",
+    bgColor: "#dda975",
     alt: "Молочный",
   },
   {
