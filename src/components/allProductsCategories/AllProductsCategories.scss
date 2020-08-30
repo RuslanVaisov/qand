@@ -24,10 +24,10 @@
 
 .categories-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   margin: auto;
-  width: 80%;
+  width: 70%;
   padding-bottom: 3.4rem;
 
   & > * {
@@ -53,38 +53,38 @@
         z-index: 2;
       }
 
-      span {
-        visibility: visible;
-        z-index: 2;
-        border-bottom: 3px solid #fff;
-      }
+      // span {
+      //   visibility: visible;
+      //   z-index: 2;
+      //   border-bottom: 3px solid #fff;
+      // }
 
-      .milk span {
-        border-left: 1.5px solid #dda975;
-        border-right: 1.5px solid #dda975;
-        z-index: 3;
-      }
+      // .milk span {
+      //   border-left: 1.5px solid #dda975;
+      //   border-right: 1.5px solid #dda975;
+      //   z-index: 3;
+      // }
 
-      .dark span {
-        border-left: 1.5px solid #401f19;
-        border-right: 1.5px solid #401f19;
-        z-index: 3;
-      }
-      .double span {
-        border-left: 1.5px solid #401f19;
-        border-right: 1.5px solid #401f19;
-        z-index: 3;
-      }
-      .mix span {
-        border-left: 1.5px solid #ae4a84;
-        border-right: 1.5px solid #ae4a84;
-        z-index: 3;
-      }
-      .special span {
-        border-left: 1.5px solid #f1b647;
-        border-right: 1.5px solid #f1b647;
-        z-index: 3;
-      }
+      // .dark span {
+      //   border-left: 1.5px solid #401f19;
+      //   border-right: 1.5px solid #401f19;
+      //   z-index: 3;
+      // }
+      // .double span {
+      //   border-left: 1.5px solid #401f19;
+      //   border-right: 1.5px solid #401f19;
+      //   z-index: 3;
+      // }
+      // .mix span {
+      //   border-left: 1.5px solid #ae4a84;
+      //   border-right: 1.5px solid #ae4a84;
+      //   z-index: 3;
+      // }
+      // .special span {
+      //   border-left: 1.5px solid #f1b647;
+      //   border-right: 1.5px solid #f1b647;
+      //   z-index: 3;
+      // }
     }
   }
 
@@ -93,21 +93,21 @@
     padding: 0.25rem 0;
   }
 
-  .milk {
-    background: #dda975;
-  }
-  .dark {
-    background: #401f19;
-  }
-  .double {
-    background: #401f19;
-  }
-  .mix {
-    background: #ae4a84;
-  }
-  .special {
-    background: #f1b647;
-  }
+  // .milk {
+  //   background: #dda975;
+  // }
+  // .dark {
+  //   background: #401f19;
+  // }
+  // .double {
+  //   background: #401f19;
+  // }
+  // .mix {
+  //   background: #ae4a84;
+  // }
+  // .special {
+  //   background: #f1b647;
+  // }
 }
 
 .headText {
